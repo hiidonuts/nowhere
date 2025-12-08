@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fix Google Street View navigation - allow default Google cursors */
+.gm-style {
+  cursor: default;
+}
+
+/* Ensure Street View navigation arrows use Google's default cursors */
+.gm-style .gm-svpc-dir {
+  cursor: inherit;
+}
+
+/* Allow proper cursor for Street View navigation links */
+.gm-style .gm-svpc-dir-inner {
+  cursor: inherit;
+}
+
+/* Ensure Street View clickable areas use proper cursors */
+.gm-style .gm-svpc-dir-arrow {
+  cursor: inherit;
+}
+
+/* Reset cursor for Street View container to allow Google's cursor management */
+.gm-style div[data-value] {
+  cursor: inherit;
+}
+
+/* Prevent Tailwind cursor utilities from interfering with Google Street View */
+.gm-style * {
+  cursor: revert !important;
+}
+
+/* Specifically allow Street View navigation cursors */
+.gm-style .gm-svpc-dir,
+.gm-style .gm-svpc-dir-inner,
+.gm-style .gm-svpc-dir-arrow {
+  cursor: revert !important;
+}
