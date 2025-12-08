@@ -1,5 +1,7 @@
 # Nowhere (GeoGuessr-like Game)
 
+![nowhere main page](public/mainpage.png)
+
 ## Objectives & Purpose
 
 Nowhere is a web-based game inspired by GeoGuessr, where players are challenged to guess locations based on Google Maps and Street View imagery. The main objectives are:
@@ -48,3 +50,4 @@ Nowhere is a web-based game inspired by GeoGuessr, where players are challenged 
 
 ## Contribution
 Feel free to fork, submit issues, or contribute new features!
+
