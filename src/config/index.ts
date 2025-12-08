@@ -1,6 +1,6 @@
 export const config = {
   googleMaps: {
-    apiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY || 'AIzaSyDNvikF7W4_LPbLiNP8iDJnrv75L0Z9sD0',
+    apiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY || 'YOUR_API_KEY_HERE',
     libraries: ['geometry', 'geocoding'],
     version: 'weekly',
     language: 'en',
@@ -11,7 +11,7 @@ export const config = {
     anonKey: import.meta.env.VITE_SUPABASE_ANON_KEY || '',
   },
   app: {
-    name: import.meta.env.VITE_APP_NAME || 'WhereDis',
+    name: import.meta.env.VITE_APP_NAME || 'Nowhere',
     version: import.meta.env.VITE_APP_VERSION || '1.0.0',
   },
   socket: {
